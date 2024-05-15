@@ -34,6 +34,7 @@ builder.Services.AddControllers();
 builder.Services.AddScoped<ICompanyProgramService, CompanyProgramService>();
 builder.Services.AddScoped<IQuestionTypeService, QuestionTypeService>();
 builder.Services.AddScoped<IQuestionService, QuestionService>();
+builder.Services.AddScoped<IApplicationService, ApplicationService>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
